@@ -6,13 +6,13 @@
 Train a new network on a data set with train.py:
 1. Basic usage: input 'python train.py data_directory' in the command line, Prints out training loss, validation loss, and validation accuracy as the network trains
 2. Others commands: 
-2.1. Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
-2.2. Choose architecture: python train.py data_dir --arch "vgg13"
-2.3. Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
-2.4. Use GPU for training: python train.py data_dir --gpu
+- Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
+- Choose architecture: python train.py data_dir --arch "vgg13"
+- Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
+- Use GPU for training: python train.py data_dir --gpu
 Predict flower name from an image with predict.py along with the probability of that name. That is, you'll pass in a single image /path/to/image and return the name (in this example it's flowers with the cat_to_name.json, but feel free to adapt it to your own) and class probability.
 1.Basic usage: python predict.py /path/to/image checkpoint
 2.Other commands: 
-2.1. Return top KK most likely classes: python predict.py input checkpoint --top_k 3
-2.2. Use a mapping of categories to real names: python predict.py input checkpoint --category_names cat_to_name.json
-2.3. Use GPU for inference: python predict.py input checkpoint --gpu
+- Return top KK most likely classes: python predict.py input checkpoint --top_k 3
+- Use a mapping of categories to real names: python predict.py input checkpoint --category_names cat_to_name.json
+- Use GPU for inference: python predict.py input checkpoint --gpu
