@@ -1,6 +1,6 @@
 # Image-Classifier-Command-Line-Application
 
-## This project is part of Udacity Data Scientist Degree and contains two parts:
+## This project is part of Udacity Data Scientist Degree and contains two parts, if you are using this code, I suggest you to run in a gpu server:
 ### Part one: a Jupyter notebooks training an image classifier with VGG16 model to recognize different species of flowers.
 ### Part two: a command line application for the image classifier. Using this application, you can train a new network on a dataset and save the model as a checkpoint, then you can also used the trained network to predict the class for an inpout image. Detailed description of the app is as followed: 
 #### Train a new network on a data set with train.py:
