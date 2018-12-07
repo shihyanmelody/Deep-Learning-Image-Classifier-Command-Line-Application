@@ -2,7 +2,7 @@
 
 ## This project contains two parts and is written with PyTorch:
 ### Part one: a Jupyter notebooks training an image classifier with VGG16 model to recognize different species of flowers.
-### Part two: a command line application for the image classifier. Using this application, you can train a new network on a dataset and save the model as a checkpoint, then you can also used the trained network to predict the class for an inpout image. Detailed description of the app is as followed: 
+### Part two: a command line application for the image classifier. Using this application, you can train a new network on a dataset and save the model as a checkpoint, then you can also used the trained network to predict the class for an input image. Detailed description of the app is as followed: 
 #### Train a new network on a data set with train.py:
 1. Basic usage: input 'python train.py data_directory' in the command line, Prints out training loss, validation loss, and validation accuracy as the network trains
 2. Others commands: 
