@@ -18,4 +18,4 @@
 - Use a mapping of categories to real names: python predict.py input checkpoint --category_names cat_to_name.json
 - Use GPU for inference: python predict.py input checkpoint --gpu
 
-*this project is part of Udacity Data Scientist Degree and 
+*this project is part of Udacity Data Scientist Degree
